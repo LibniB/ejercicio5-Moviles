@@ -39,17 +39,17 @@ class _MyHomePageState extends State<MyHomePage> {
       body: PageView(
         children: [
           buildPage(
-            'https://i.pinimg.com/736x/1d/d4/d9/1dd4d9a8d61b61c1bcb6754bb67d236e.jpg',
+            'https://img.freepik.com/fotos-premium/joven-estudiante-mujer-cruzando-brazos-sonriente-relajado_1187-24795.jpg',
             'Aprendiz',
             'Inscribete al Sena',
           ),
           buildPage(
-            'https://i.pinimg.com/474x/04/c1/32/04c1324642209a7809b92dc7bdf76084.jpg',
+            'https://img.freepik.com/fotos-premium/mujer-joven-estudiante-sonriendo-apuntando-lado-mostrando-algo_1187-95247.jpg',
             'Preparate',
             'El futuro es hoy',
           ),
           buildPage(
-            'https://i.pinimg.com/474x/21/7c/20/217c20a14066c93ca2240e97a541d44c.jpg',
+            'https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2019/11/mujer-programando-diferentes-ordenadores.jpg?tf=3840x',
             'Programación de software',
             'Despierta tu mente',
           ),
