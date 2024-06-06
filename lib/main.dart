@@ -39,17 +39,17 @@ class _MyHomePageState extends State<MyHomePage> {
       body: PageView(
         children: [
           buildPage(
-            'https://img.freepik.com/fotos-premium/joven-estudiante-mujer-cruzando-brazos-sonriente-relajado_1187-24795.jpg',
+            '/assets/images/joven-sonriendo.jpg',
             'Aprendiz',
             'Inscribete al Sena',
           ),
           buildPage(
-            'https://img.freepik.com/fotos-premium/mujer-joven-estudiante-sonriendo-apuntando-lado-mostrando-algo_1187-95247.jpg',
+            '/assets/images/chicaapuntando.jpg',
             'Preparate',
             'El futuro es hoy',
           ),
           buildPage(
-            'https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2019/11/mujer-programando-diferentes-ordenadores.jpg?tf=3840x',
+            '/assets/images/mujer-programando-diferentes-ordenadores.jpg',
             'Programación de software',
             'Despierta tu mente',
           ),
@@ -58,11 +58,11 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  Widget buildPage(String imageUrl, String title, String description) {
+  Widget buildPage(String imagePath, String title, String description) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Image.network(imageUrl, height: 200),
+        Image.network(imagePath, height: 200),
         const SizedBox(height: 20),
         Text(
           title,
